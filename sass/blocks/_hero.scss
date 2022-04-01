@@ -1,2 +1,117 @@
 /* HERO PART  */
 
+.hero {
+  padding-top: 20px;
+  padding-bottom: 55px;
+
+  &__avatarbox {
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid #dbdbdb;
+    overflow: hidden;
+    padding: 9px;
+  }
+
+  &__avatar {
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  &__boxs {
+    padding-top: 18px;
+    padding-bottom: 60px;
+    margin-left: 101px;
+  }
+
+  &__login {
+    font-size: 28px;
+    line-height: 32px;
+    color: #262626;
+    margin-right: 20px;
+  }
+
+  &__fbtn {
+    background-color: #0095f6;
+    border: 1px solid #0095f6;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #fff;
+    padding: 6px 24px;
+    margin-right: 18px;
+  }
+
+  &__icondot {
+    font-size: 28px;
+    line-height: 32px;
+    color: #262626;
+  }
+
+  &__info {
+    font-size: 16px;
+    line-height: 18px;
+    color: #262626;
+    margin-right: 40px;
+  }
+
+  &__name {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #262626;
+  }
+
+  &__desc {
+    color: #262626;
+    margin-bottom: 3px;
+  }
+
+  &__link {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    color: #262626;
+  }
+
+  &__list {
+    width: 100%;
+    list-style-type: none;
+    overflow: hidden;
+  }
+
+  &__item {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.12px;
+    color: #262626;
+    margin-right: 48px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &__istores {
+    display: block;
+    width: 77px;
+    height: 77px;
+    border-radius: 50%;
+    border: 1px solid #dbdbdb;
+    padding: 5px;
+    overflow: hidden;
+    margin-bottom: 15px;
+  }
+
+  &__isimg {
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+}

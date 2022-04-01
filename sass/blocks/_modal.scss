@@ -1,0 +1,114 @@
+//modal css //
+
+.imodal {
+  display: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #000000a6;
+  z-index: 10;
+
+  &__boxs {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__main {
+    width: 100%;
+    height: 800px;
+    z-index: 15;
+  }
+
+  &__imgboxs {
+    position: relative;
+    width: 50%;
+    height: 800px;
+    background-color: #000;
+    overflow: hidden;
+  }
+
+  &__imgbox {
+    width: 100%;
+    height: 100%;
+    transition: all 0.4s linear;
+  }
+
+  &__img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  &__box {
+    width: 50%;
+    background-color: #fff;
+  }
+
+  &__head {
+    border-bottom: 1px solid  #00000025;
+    padding: 10px;
+    padding-left: 15px;
+  }
+
+  &__avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  &__title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 15px;
+  }
+
+  &__dot {
+    font-size: 32px;
+    font-weight: 700;
+  }
+
+  &__info {
+    padding: 14px;
+  }
+
+  &__desc {
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+
+  &__like {
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  &__icon {
+    font-size: 36px;
+    font-weight: 500;
+  }
+
+  &__lbtn,
+  &__rbtn {
+    position: absolute;
+    top: 50%;
+    background: none;
+    border: none;
+    z-index: 5;
+  }
+  &__lbtn {
+    left: 10px;
+  }
+  &__rbtn {
+    right: 10px;
+  }
+
+  &__icons {
+    font-size: 28px;
+    font-weight: 500;
+    color: #ffffff81;
+  }
+}
